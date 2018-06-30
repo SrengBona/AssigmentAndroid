@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateAccountActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/colorApp"
+        android:gravity="center"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Create Acount"
+            android:textColor="@color/white"
+            android:background="@color/colorApp"
+            android:textSize="25dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="0dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="First Name"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="last Name"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Email"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Phone Number"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Password"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Repassword"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:background="@color/colorApp"
+            android:text="Create New"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/colorApp"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:src="@drawable/ic_logo_app"
+            android:layout_height="120dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:text="Tos Nham"
+            android:textSize="25dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <EditText
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textColor="@color/Black"
+        android:hint="user name"
+        android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/Black"
+            android:hint="Password"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="Login"
+            android:background="@color/colorApp"
+            android:id="@+id/login"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="New Account"
+            android:background="@color/colorApp"
+            android:id="@+id/newacount"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
