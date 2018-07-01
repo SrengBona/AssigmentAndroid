@@ -21,35 +21,75 @@
             android:textSize="20dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="About Systems"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/colorApp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content" />
     <TextView
         android:layout_width="wrap_content"
-        android:textColor="@color/Black"
-        android:text="I.Restuarant food in Cambodia."
-        android:textSize="15dp"
-        android:layout_marginLeft="25dp"
-        android:layout_margin="10dp"
+        android:text="AppName: Tos Nham"
         android:layout_height="wrap_content" />
-    <ImageView
+    <TextView
         android:layout_width="wrap_content"
-        android:src="@drawable/img_food2"
-        android:layout_height="120dp" />
+        android:text="AppName: Tos Nham"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="AppName: Tos Nham"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="AppName: Tos Nham"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="AppName: Tos Nham"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="About Programmers"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/colorApp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:textColor="@color/Black"
-        android:text="I.Restuarant food in Cambodia."
-        android:textSize="15dp"
-        android:layout_marginLeft="25dp"
-        android:layout_margin="10dp"
+        android:text="Develop by Mr. Sreng Bona and Mr. Cheom Kosal."
         android:layout_height="wrap_content" />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:src="@drawable/img_food1"
-        android:layout_height="120dp" />
     <TextView
         android:layout_width="wrap_content"
-        android:paddingLeft="90dp"
-        android:paddingTop="70dp"
-        android:text="Faculty of Engineering on RUPP."
+        android:text="This application is a Assignment of Android."
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="We study on Faculty of Enginnering on Royal University Of Phnom Penh , Department IT of Engineering."
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Contact us"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/colorApp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Email: srengbona@gmail.com and cheomkosal@gmail.com"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Phone Number: 068 88 78 40/096 43 ..."
         android:layout_height="wrap_content" />
 </LinearLayout>

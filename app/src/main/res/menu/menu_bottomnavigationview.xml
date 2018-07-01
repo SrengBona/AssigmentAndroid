@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:icon="@drawable/ic_setting"
+        android:icon="@drawable/ic_home"
         android:id="@+id/btv_home"
         android:title="Home"/>
 
     <item
-        android:icon="@drawable/ic_setting"
+        android:icon="@drawable/ic_restuarant"
         android:id="@+id/btv_restuarant"
         android:title="Restuanrant"/>
 
     <item
-        android:icon="@drawable/ic_setting"
+        android:icon="@drawable/ic_more"
         android:id="@+id/btv_more"
         android:title="More"/>
 </menu>
