@@ -32,12 +32,12 @@
     <ImageView
         android:layout_width="wrap_content"
         android:src="@drawable/img_food2"
-        android:layout_height="120dp" />
+        android:layout_height="150dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:textColor="@color/Black"
-        android:text="I.Restuarant food in Cambodia."
+        android:text="II. Dinner Foods in Cambodia."
         android:textSize="15dp"
         android:layout_marginLeft="25dp"
         android:layout_margin="10dp"
@@ -49,7 +49,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:paddingLeft="90dp"
-        android:paddingTop="70dp"
+        android:paddingTop="40dp"
         android:text="Faculty of Engineering on RUPP."
         android:layout_height="wrap_content" />
 </LinearLayout>
