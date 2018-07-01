@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         View restuarant = (View) findViewById(R.id.btv_restuarant);
         View more = (View) findViewById(R.id.btv_more);
 
+
+
         home.setOnClickListener(this);
         restuarant.setOnClickListener(this);
         more.setOnClickListener(this);
