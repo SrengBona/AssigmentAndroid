@@ -32,35 +32,35 @@
         android:gravity="center"
         android:orientation="vertical"
         android:layout_height="0dp">
-        <EditText
-        android:layout_width="match_parent"
-        android:textSize="20dp"
-        android:textColor="@color/Black"
-        android:hint="user name"
-        android:layout_height="wrap_content" />
-        <EditText
-            android:layout_width="match_parent"
-            android:textSize="20dp"
+        <TextView
+            android:text="LOG IN"
+            android:textSize="25dp"
             android:textColor="@color/Black"
-            android:hint="Password"
+            android:layout_marginTop="-70dp"
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/phoneLogin"
+            android:text="Phone Login"
+            android:textColor="@color/white"
+            android:background="@color/design_default_color_primary_dark"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
-            android:layout_width="match_parent"
+            android:id="@+id/emailLogin"
+            android:text="Email Login"
             android:textColor="@color/white"
-            android:textSize="18dp"
-            android:text="Login"
             android:background="@color/colorApp"
-            android:id="@+id/login"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_marginTop="3dp"
-            android:textColor="@color/white"
-            android:textSize="18dp"
-            android:text="New Account"
-            android:background="@color/colorApp"
-            android:id="@+id/newacount"
-            android:layout_height="wrap_content"/>
+
     </LinearLayout>
 
 </LinearLayout>

@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Tos Nham</string>
+    <string name="app_name">AssigmentAndroid</string>
+
+    <string name="fb_app_id">334066307226769</string>
+    <string name="account_kit_client_token">faddc049665eedbc5439bab240102fd7</string>
+    <string name="ak_login_protocol_scheme">akfaddc049665eedbc5439bab240102fd7</string>
 </resources>

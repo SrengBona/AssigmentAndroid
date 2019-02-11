@@ -28,10 +28,13 @@
         android:layout_marginLeft="25dp"
         android:layout_below="@+id/username"
         android:layout_height="wrap_content" />
-    <TextView
+
+    <Button
         android:layout_width="wrap_content"
-        android:text="Logout"
-        android:textColor="@color/white"
+        android:text="Log out"
+        android:id="@+id/btnLogOut"
+        android:background="@color/colorApp"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
         android:layout_marginTop="50dp"
         android:layout_alignParentRight="true"
